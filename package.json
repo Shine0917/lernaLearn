@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "jest": "^27.1.0",
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint --ext .js packages/**/*/js --no-error-on-unmatched-pattern --fix "
+  }
+}
